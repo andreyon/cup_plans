@@ -20,9 +20,45 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .wrapper {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+  padding: 50px 30px;
   justify-content: space-between;
+  align-items: center;
+  background-color: #fdde7e;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 441px;
+  width: 360px;
+  background-color: #ffffff;
+}
+
+.banner:nth-child(2) {
+  height: 500px;
+}
+
+.banner-info {
+  text-align: center;
+}
+
+.banner-info h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 52px;
+}
+
+.banner-info p {
+  padding: 20px 100px;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
 }
